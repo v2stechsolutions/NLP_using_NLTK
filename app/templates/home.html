@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/css/home.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <h2>Natural Language Processing Application</h2>
+        <div class="">
+            <div class="card-body">
+                <input id="textForAnalysis" type="text" placeholder=' Enter Your Text Here'>
+                <button class="btn btn-primary" onclick="submitEnteredText()">Submit</button>
+            </div>
+        </div>
+
+        <div class="enteredTextDivision">
+            <div class="enteredTextHeader">
+                <h3>Entered Text : </h3>
+            </div>
+            <div class=" enterdTextDiv">
+                <h3 class="enterdText"></h3>
+            </div>
+        </div>
+
+        <div class="sentimentalAnalysisDivision">
+            <div class="sentimentalAnalysisHeader">
+                <h3>Sentimental Analysis : </h3>
+            </div>
+            <div class=" sentimentAnalysisDiv">
+                <h3 class="sentimentAnalysis"></h3>
+            </div>
+        </div>
+
+        <div class="mainTopicsDivision">
+            <div class="mainTopicsHeader">
+                <h3>Topics : </h3>
+            </div>
+            <div class=" mainTopicsDiv">
+                <h3 class="mainTopics"></h3>
+            </div>
+        </div>
+
+    </div> -->
+
+    <!-- ############################################### -->
+
+    <!-- <div class="container nlpHeadingDiv">
+        <h3 class="nlpHeading">Natural Language Processing Application</h3>
+    </div>
+    <div class="container contentDiv">
+        <div class="card" style="border: none !important;">
+            <div class="row">
+                <div class="col-sm-6 textAreaDiv" style="margin-top: 10px;">
+                    <textarea name="" id="textForAnalysis" cols="75" rows="10" placeholder=" Enter Your Text Here"></textarea><br>
+                    <button class="btn btn-primary" onclick="submitEnteredText()">Submit</button>
+                </div>
+                <div class="col-sm-6">
+                    <div class="enteredTextDivision">
+                        <div class="enteredTextHeader col-sm-12">
+                            <h3 style="color: red;">Entered Text : </h3>
+                        </div>
+                        <div class=" enterdTextDiv col-sm-12">
+                            <h6 class="enterdText"></h6>
+                        </div>
+                    </div>
+            
+                    <div class="sentimentalAnalysisDivision">
+                        <div class="sentimentalAnalysisHeader col-sm-12">
+                            <h3 style="color: red;">Sentimental Analysis : </h3>
+                        </div>
+                        <div class=" sentimentAnalysisDiv col-sm-12">
+                            <h6 class="sentimentAnalysis"></h6>
+                        </div>
+                    </div>
+            
+                    <div class="mainTopicsDivision">
+                        <div class="mainTopicsHeader col-sm-12">
+                            <h3 style="color:red">Topics : </h3>
+                        </div>
+                        <div class=" mainTopicsDiv col-sm-12">
+                            <h6 class="mainTopics"></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     -->
+    <!-- ################################################ -->
+
+    <div class="container nlpHeading">
+        <h1>Natural Language Processing Application</h1>
+    </div>
+    
+    <div class="container">
+        <div class="card card_container" style="border: none !important;">
+            <div class="row">
+                <div class="col-sm-6 left_class" style="margin-top: 15px;">
+                    <div class="card-body col-sm-12">
+                        <textarea name="" id="textForAnalysis" cols="50" rows="10" placeholder=" Enter Your Text Here"></textarea><br>
+                    </div>
+                    <div class="card-body col-sm-12">
+                        <button class="btn btn-danger" onclick="submitEnteredText()">Submit</button>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-6 right_class">
+                    <div class="enteredTextDivision">
+                        <div class="enteredTextHeader card-body col-sm-12">
+                            <h3 style="color: white;">Entered Text : </h3>
+                        </div>
+                        <div class=" enterdTextDiv card-body col-sm-12">
+                            <h6 class="enterdText" style="color: white;"></h6>
+                        </div>
+                    </div>
+            
+                    <div class="sentimentalAnalysisDivision">
+                        <div class="sentimentalAnalysisHeader card-body col-sm-12">
+                            <h3 style="color: white;">Sentimental Analysis : </h3>
+                        </div>
+                        <div class=" sentimentAnalysisDiv card-body col-sm-12">
+                            <h6 class="sentimentAnalysis" style="color: white;"></h6>
+                        </div>
+                    </div>
+            
+                    <div class="mainTopicsDivision">
+                        <div class="mainTopicsHeader card-body col-sm-12">
+                            <h3 style="color:white">Topics : </h3>
+                        </div>
+                        <div class=" mainTopicsDiv card-body col-sm-12">
+                            <div class="mainTopics"></div>
+                            <!-- <h6 class="mainTopics" style="color: white;"></h6> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/home.js"></script>
+</body>
+</html>

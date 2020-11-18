@@ -1,0 +1,55 @@
+.enteredTextDivision,
+.sentimentalAnalysisDivision,
+.mainTopicsDivision{
+    margin: 10px;
+}
+
+/* .enteredTextDivision,
+.enterdTextDiv{
+    background-color: rgb(224, 224, 224);
+}
+
+.sentimentalAnalysisDivision,
+.sentimentAnalysisDiv{
+    background-color: rgb(224, 224, 224);
+}
+
+.mainTopicsDivision,
+.mainTopicsDiv{
+    background-color: rgb(224, 224, 224);
+} */
+
+.nlpHeading{
+    text-align: center;
+}
+
+.nlpHeadingDiv{
+    background-color: rgb(212, 208, 208);
+    height: 15%;
+}
+
+/* .textAreaDiv{
+    margin: 10px;
+} */
+
+.enterdText{
+    height: 150px;
+    overflow-y: scroll;
+}
+.mainTopics{
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.enterdTextDiv,
+.sentimentAnalysisDiv,
+.mainTopicsDiv{
+    border: 1px solid yellow;
+}
+
+
+.card_container{
+    background-color: rgb(210, 217, 219);
+    background-image: linear-gradient(to bottom right, rgb(206, 206, 211), rgb(0, 0, 0));
+}
+
